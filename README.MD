@@ -16,7 +16,7 @@ PAIRED has a strong guarantee of robustness in that at Nash equilibrium, it prov
 
 ### Environments supported
 
-- [MiniHack](https://github.com/facebookresearch/minihack)
+- [MiniHack (Samvelyan et al, 2021)](https://github.com/facebookresearch/minihack)
 - [MiniGrid (Chevalier-Boisvert et al, 2018)](https://github.com/maximecb/gym-minigrid)
 
 ## Set up
@@ -32,7 +32,7 @@ cd baselines
 pip install -e .
 cd ..
 
-git clone https://github.com/ucl-dark/blob/main/minihack
+git clone https://github.com/facebookresearch/minihack.git
 cd minihack
 pip install -e .
 cd ..
